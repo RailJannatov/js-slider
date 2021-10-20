@@ -1,0 +1,79 @@
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+
+h1 {
+    display: none;
+}
+
+.title {
+    text-align: center;
+    font-size: 52px;
+    color: #484896;
+}
+
+.inputNameParent {
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+    .nameInput {
+        border-radius: 10px;
+    }
+}
+
+button {
+    margin-left: 46%;
+    margin-top: 10px;
+}
+
+.popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: none;
+
+    .inner {
+        border-radius: 8px;
+        border: 10px solid #fff;
+        position: relative;
+
+        .closeBtn {
+            position: absolute;
+            right: -1px;
+            top: -1px;
+
+
+            i {
+                font-size: 30px;
+                background-color: #b9b9b900;
+                color: #8f7a7ae0;
+                border-radius: 30px;
+                cursor: pointer;
+            }
+        }
+
+        .arrows {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            top: 45%;
+            width: 98%;
+            left: 1%;
+
+            i {
+                font-size: 45px;
+                cursor: pointer;
+            }
+        }
+    }
+}
